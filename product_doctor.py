@@ -54,12 +54,12 @@ from Utils import cardinal_tools
 logger = logging.getLogger("FPC.ProductDoctor")
 
 # ══════════════════════════════ МЕТАДАННЫЕ ПЛАГИНА ══════════════════════════════
-NAME = "Доктор товарных файлов"
-VERSION = "1.0.0"
+NAME = "ProductDoctor (Product Files Doctor)"
+VERSION = "1.0.1"
 DESCRIPTION = ("Проверяет и лечит товарные файлы автовыдачи: дубликаты (риск двойной выдачи!), "
                "пустые строки, лишние пробелы. Очистка с бэкапом, массовая очистка, "
                "авто-проверка раз в 6 часов. Команда: /products")
-CREDITS = "Qwen (для FunPay Cardinal)"
+CREDITS = "yungspider"
 UUID = "89c4b93a-9392-4992-8b0e-4ab5ae232392"
 SETTINGS_PAGE = True
 

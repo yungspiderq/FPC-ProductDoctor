@@ -288,7 +288,7 @@ def last_kb():
 
 name = dispatch_cb(f"47:{plugin.UUID}:0")
 check("5.2 страница настроек открывает меню", name == "open_home"
-      and "Доктор товарных файлов" in last_text())
+      and "ProductDoctor" in last_text())
 check("5.3 главная показывает счетчик дубликатов", "С дубликатами: <b>1</b>" in last_text()
       and "лишних копий: <b>1</b>" in last_text())
 
